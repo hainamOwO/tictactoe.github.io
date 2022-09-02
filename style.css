@@ -1,0 +1,33 @@
+.cell{
+  width: 75px;
+  height: 75px;
+  border: 2px solid;
+  box-shadow: 0 0 0 2px;
+  font-size: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#cellContainer{
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  width: 225px;
+  margin:auto
+}
+
+#gameContainer{
+  font-family: MV Boli;
+  text-align: center;
+}
+
+#restartBtn{
+  padding:10px 10px;
+  background-color: lightblue;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+#restartBtn:active{
+  opacity: 0.25;
+}
